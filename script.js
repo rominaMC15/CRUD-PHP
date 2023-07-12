@@ -27,4 +27,14 @@ document.addEventListener("DOMContentLoaded", function() {
         location.reload();
     });
   });
+
+  // confirm.js
+function confirmDelete(id) {
+  var confirmed = confirm("¿Estás seguro de que quieres eliminar este elemento?");
+  if (confirmed) {
+      window.location.href = "borrar.php?id=" + id;
+  }
+}
+
+
   

@@ -20,6 +20,7 @@
     </head>
     <body>
         <div class="users-form">
+        <h2>Modificar registro</h2>
             <form action="modificar.php" method="POST">
                 <input type="hidden" name="id" value="<?= $row['id']?>">
                 <input type="text" name="nombre" placeholder="Nombre" value="<?= $row['nombre']?>">
@@ -27,7 +28,7 @@
                 <input type="text" name="telefono" placeholder="Telefono" value="<?= $row['telefono']?>">
                 <input type="text" name="consulta" placeholder="Consulta" value="<?= $row['consulta']?>"></input>
 
-                <input type="submit" value="Actualizar">
+                <input type="submit" value="ACTUALIZAR">
             </form>
         </div>
     </body>

@@ -22,7 +22,7 @@ a{
     text-align: center;
 }
 
-.users-form form input{
+.users-form form input, h2{
     font-family: 'Segoe UI', sans-serif;
 }
 
@@ -39,8 +39,8 @@ a{
 .users-form form input[type=text]:focus,
 .users-form form input[type=password]:focus,
 .users-form form input[type=password]:focus{
-    border-color:dodgerBlue;
-    box-shadow:0 0 6px 0 dodgerBlue;
+    border-color:rgb(0, 0, 0);
+    box-shadow:0 0 6px 0 rgb(84, 84, 85);
 }
 
 .users-form form input[type=submit]{
@@ -50,14 +50,15 @@ a{
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 5px;
-    background-color: white; 
-    color: black; 
-    border: 2px solid #60a100;
+    background-color: rgb(66, 66, 66); 
+    color: white; 
+    border: 2px solid #000;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 .users-form form input[type=submit]:hover {
-    background-color: #60a100;
-    color: white;
+    background-color: #a8a8a8;
+    color: rgb(0, 0, 0);
 }
 
 

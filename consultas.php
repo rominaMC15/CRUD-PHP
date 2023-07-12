@@ -40,7 +40,9 @@ include("database.php");
                     <th><?php echo $row['consulta'] ?></th>
 
                     <th><a href="modificarView.php?id=<?= $row['id'] ?>" class="users-table--edit">Editar</a></th>
-                    <th><a href="borrar.php?id=<?= $row['id'] ?>" class="users-table--delete">Eliminar</a></th>
+                    <th><a href="#" onclick="confirmDelete(<?php echo $row['id']; ?>)" class="users-table--delete">Eliminar</a></th>
+
+
                 </tr>
                 <?php
                          }
@@ -48,6 +50,6 @@ include("database.php");
             </tbody>
         </table>
     </div>
-
+    <script src="script.js"></script>
 </body>
 </html>

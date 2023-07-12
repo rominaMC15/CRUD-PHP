@@ -20,6 +20,6 @@ if (!$result) {
 }
 
 if($result){
-    Header("Location: consultas.php");
+    Header("Location: index.php");
 }
 ?>

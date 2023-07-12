@@ -148,7 +148,7 @@
 
                   	<dt class="col-sm-4 text-white font-secondary">Email:</dt>
                   	<dd class="col-sm-8">
-                    	<input type="email" class="form-control text-info" placeholder="Tu correo" name="correo">
+                    	<input type="email" class="form-control" placeholder="Tu correo" name="correo">
                   	</dd>
 
                   	<dt class="col-sm-4 text-white font-secondary">Telefono:</dt>
